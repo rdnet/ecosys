@@ -11,6 +11,20 @@ public class Measure {
 		DENSITY,
 		TEMPERATURE
 	};
-	Integer		value;
-	String		unit;
+	protected Integer		value;
+	protected String		unit;
+	
+	public Integer getValue() {
+		return value;
+	}
+	public void setValue(Integer value) {
+		this.value = value;
+	}
+	public String getUnit() {
+		return unit;
+	}
+	public void setUnit(String unit) {
+		this.unit = unit;
+	}
+	
 }

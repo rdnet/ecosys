@@ -10,5 +10,5 @@ public class Connection {
 	};
 	ObjectBase			from;
 	ObjectBase			to;
-	Connection			twin;
+	Connector			connector;
 }

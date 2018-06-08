@@ -9,5 +9,6 @@ public enum MessageType {
 	FLOW,
 	ODOUR,
 	TASTE,
-	FREQENCY
+	FREQENCY,
+	DATACHANGE
 }
